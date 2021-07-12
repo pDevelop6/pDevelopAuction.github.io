@@ -44,10 +44,10 @@ document.addEventListener("DOMContentLoaded",function(){
     })   
     
 //====get username;
-var myObj= JSON.parse(localStorage.getItem('signupinfo'));
- document.getElementById("welcomeuser").textContent=myObj.name;
-document.getElementById("welcomeuser").style.fontWeight = "bold";
-document.getElementById("welcomeuser").style.textTransform = "capitalize";
+//var myObj= JSON.parse(localStorage.getItem('signupinfo'));
+ //document.getElementById("welcomeuser").textContent=myObj.name;
+//document.getElementById("welcomeuser").style.fontWeight = "bold";
+//document.getElementById("welcomeuser").style.textTransform = "capitalize";
 
 
 
