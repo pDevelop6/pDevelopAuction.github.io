@@ -47,11 +47,11 @@ document.addEventListener("DOMContentLoaded",function(){
     loginform.addEventListener("submit",(e)=>{
       e.preventDefault()
       console.log("clicked")
-        var loginname= document.getElementById("loginame").value;
-        var password= document.getElementById("password").value;
-       var myObj= JSON.parse(localStorage.getItem('signupinfo'));
-
-        if((loginname==myObj.username && password==myObj.password)|| (loginname=="admin" && password==123))
+        //var loginname= document.getElementById("loginame").value;
+       // var password= document.getElementById("password").value;
+       //var myObj= JSON.parse(localStorage.getItem('signupinfo'));
+//(loginname==myObj.username && password==myObj.password)|| 
+        if(loginname=="admin" && password==123)
         {
             
           window.open("Home.html","_self")
