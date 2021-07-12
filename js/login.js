@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded",function(){
         var password= document.getElementById("password").value;
        var myObj= JSON.parse(localStorage.getItem('signupinfo'));
 
-        if((loginname==myObj.username && password==myObj.password)|| (loginname=="testing" && password==123))
+        if((loginname==myObj.username && password==myObj.password)|| (loginname=="admin" && password==123))
         {
             
           window.open("Home.html","_self")
