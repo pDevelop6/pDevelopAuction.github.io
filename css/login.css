@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.6em;
+    margin: 0;
+    background-image: url("../img/loginbg.jpg");
+    background-position: center center;
+}
+.container{
+    width: 40%;
+    margin: auto;
+    overflow: hidden;
+    color:white;
+}
+#login{
+    margin: 150px auto;
+  
+}
+#header{
+    text-align: center;
+    font-size: 55px;
+    font-family: Audrey;
+}
+
+#login-form input[type="text"],input[type="password"]{
+    display: block;
+    width: 70%;
+    padding: 8px;
+   margin-left: 15%;
+   margin-top: 30px;
+   box-shadow: 0px 6px 0px #86592d;
+    outline: none !important;
+    border-radius: 5px;
+}
+input.valid {
+    border-color: #36cc36;
+}
+
+input.invalid {
+    border-color: red;
+}
+
+form label{
+    display:block;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 8px 0px;
+    margin-left: 18%;
+    color: red;
+    opacity: 0;
+    height: 0;
+}
+
+input.invalid+label {
+    opacity: 1;
+}
+
+input.invalid+label {
+    opacity: 1;
+}
+#login-form input[type="submit"]{
+    width: 20%;
+    padding: 8px;
+   margin-left: 40%;
+   margin-top: 30px;
+   border-radius: 5px;
+   font-family: Audrey;
+   font-size: 18px;
+   font-weight: 100;
+   box-shadow: 0px 4px 0px #86592d;
+}
+#login-form input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #86592d;
+    color: white;
+    box-shadow: 0px 4px 0px white;
+    border: 1px solid white;
+}
+
+#register{
+    text-decoration: none;
+    color: white;
+   
+}
+h4{
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+#sign{
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 40%;
+}
+#boxes{
+    margin-top: 70px;
+}
+#boxes .box{
+    float:right;
+    width:32%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+#boxes .box img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}

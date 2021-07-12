@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Payment</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <script src="./js/payment.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container"></div>
+            <div id="menuimg">
+                <img src="./img/menu.png" alt="not found">
+                <div class="dropdown-content">
+                    <a href="home.html" target="_self">Home</a>
+                    <a href="Services.html" target="_self">Service</a>
+                    <a href="Cart.html" target="_self">Cart(<span id="cartscount">0</span>)</a>
+                    <a href="News.html" target="_self">News</a>
+                    <a href="AboutUs.html" target="_self">AboutUs</a>
+                    <a href="ContactUs.html" target="_self">ContactUs</a>
+                    <a href="Help.html" target="_self">Help</a>
+                   <a href="ThankYou.html" target="_self">Thank You</a>
+                </div>
+            </div>
+                <div id="tagname">
+                    <h1 id="heading">Sculpture<span> Auction</span></h1>
+                    <p id="welcome"><i>Welcome,</i><span id="welcomeuser"> </span></p>
+                </div>
+                <div id="navigation">
+                    <ul>
+                        <li><a href="home.html" target="_self">Home</a></li>
+                        <li><a href="Services.html" target="_self">Service</a></li>
+                        <li><a href="Cart.html" target="_self">Cart(<span id="cartcount">0</span>)</a></li>
+                        <li><a href="AboutUs.html" target="_self">AboutUs</a></li>
+                        <li><a href="ContactUs.html" target="_self">ContactUs</a></li>
+                    </ul>
+                </div>
+               
+            </div>
+        </div>
+        <div id="payment">
+            <div class="container">
+                <div class="centered">
+                    <h2>PayYourbills</h2>
+                       <form id="pay-bill" action="Home.html">
+                           <p>
+                               <input type="text" name="name" placeholder="Enter Your full name here!*" id="name">
+                               <label for="name">Name must be and contain 5 - 20 characters</label>   
+                           </p>   
+                           <p> 
+                               <input type="text" name="email" placeholder="Enter Your email here!*" id="email">
+                               <label for="name">Email must be a valid address, e.g. me@mydomain.com</label>
+                           </p>
+                           <p> 
+                               <input type="text" name="creditcardnumber" placeholder="Enter Your Credit Card Number here!*" id="ccnumber">
+                               <label for="name">Credit Card Number must be only 16 digit e.g. (0123456789121314)</label>
+                           </p>
+                           <p>  
+                            <input type="text" name="creditcardcvv" placeholder="Enter Your Credit Card CVV here!*" id="ccvv">
+                            <label for="name">Credit Card CVV must be only 3 digit</label>
+                           </p>
+                           <p>   
+                            <input type="text" name="name" placeholder="Enter Your Name on Credit Card here!*" id="cname">
+                            <label for="name">Name must be and contain 5 - 20 characters</label>
+                         </p>
+                           <p>
+                               <input type="text" name="amount" placeholder="Enter Your amount here!*" id="camount" min="0">
+                               <label for="name">Amount must be and contain digit only e.g.(34.50) and must be same as carttotal </label>
+                           </p>  
+                            <p>
+                               
+                               <input type="number" name="cardmonth" placeholder="Card Expiration Month " id="cmonth" min="0" >
+                               <input type="number" name="cardyear" placeholder="Card Expiration Year " id="cyear" min="0">
+                               <label for="name">Credit Card Month and Year is only 2 digit e.g. (Month=02) (Year=23)</label>
+                           
+                            </p>
+                
+                            <p>
+                               <input type="text" name="telephone" placeholder="Enter Your telephone number here!*" id="telephone">
+                               <label for="name">Telephone must be a valid Canadian telephone number (10 digits) e.g.(514-111-1111)</label>
+                            </p>
+                            <p>
+                               <button class="submit">Submit</button>
+                            </p>
+                       </form>
+                   </div>
+                
+            </div>
+        </div>
+        <div id="footer">
+            <div class="footer-container">
+                <div class="box">
+                    <h3>Products</h3>
+                    <ul>
+                        <li>Sculptures</li>
+                        <li>Ancient Greek</li>
+                        <li>Roman Civilization</li>
+                        <li>Ancient Indian</li>
+                        <li>Ancient Egypt</li>
+                        <li>Ancient Babylon</li>
+                        <li>Sindhu Valleys</li>
+                        <li>Indus Valley</li>
+                        <li>Mesopotamia</li>
+                        <li>Norte Chico</li>
+                        <li>Mayan</li>
+                        <li>Aztecs</li>
+                    </ul>
+                    
+                  </div>
+                  <div class="box">
+                    <h3>Customers</h3>
+                    <ul>
+                        <li>Sculptures</li>
+                        <li>Ancient Greek</li>
+                        <li>Roman Civilization</li>
+                        <li>Ancient Indian</li>
+                        <li>Ancient Egypt</li>
+                        <li>Ancient Babylon</li>
+                        <li>Sindhu Valleys</li>
+                        <li>Indus Valley</li>
+                        <li>Mesopotamia</li>
+                    </ul>
+                  </div>
+                  <div class="box">
+                    <h3>Organization</h3>
+                    <ul>
+                        <li>About</li>
+                        <li>Careers</li>
+                        <li>Our Brands</li>
+                        <li>Press & Media</li>
+                        <li>NewsRooms</li>
+                        <li>Terms Of Service</li>
+                        <li>Privacy Policy</li>
+                        <li>Contact Us</li>
+                        <li>TimeLine</li>
+                    </ul>
+                  </div>
+                  <div class="box">
+                    <h3>Community</h3>
+                    <ul>
+                        <li>Help & Support</li>
+                        <li>Hire an Expert</li>
+                        <li>Follow</li>
+                        <li>Webinars</li>
+                        <li>Developer Platform</li>
+                    </ul>
+                  </div>
+                  <div class="box">
+                    <h3>Follower</h3>
+                    <ul>
+                        <li id="linkclick"><a href="https://www.youtube.com/watch?v=vVaHEY_14ZU" target="_blank">Youtube</a></li>
+                        <li id="linkclick"><a href="https://twitter.com/greekmythologyc?lang=en" target="_blank">Twitter</a></li>
+                        <li id="linkclick"><a href="https://www.instagram.com/drawingsatyr/?hl=en" target="_blank">Instagram</a></li>
+                        <li id="linkclick"><a href="https://mythologymatters.wordpress.com/" target="_blank">Wordpress Blog</a></li>
+                        <li id="linkclick"><a href="https://www.facebook.com/Greek-Mythology-37254939665/" target="_blank">Facebook</a></li>
+                        <li id="linkclick"><a href="https://sites.google.com/site/basicgreekmythology/" target="_blank">Google+</a></li>
+                        <li id="linkclick"><a href="https://www.linkedin.com/" target="_blank">Linkedin</a></li>
+                        <li id="linkclick"><a href="https://www.igreekmythology.com/" target="_blank">Mythology Blog</a></li>
+                    </ul>
+                  </div>
+            </div>
+                <p id="f-tag">Sculpture Auction Copy &copy;2021</p>
+        </div> 
+    </body>
+</html>
